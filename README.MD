@@ -1,8 +1,6 @@
-# Expensify App
+# React Boilerplate
 
-This app allows you to track your expenses over time. It uses [React](https://reactjs.org) to provide a fluid user interface and connects to a [Firebase datastore](https://firebase.google.com) for persistent data management. It is secured using [Firebase's Google Authentication](https://firebase.google.com/docs/auth/).
-
-A live example of this project can be reached at https://neighly-expensify-app.herokuapp.com.
+This repository allows you to quickly create a React app that uses Redux and React-Router, along with Firebase for its remote data store. It has built-in private routing and redirecting for unauthenticated users.
 
 # Installation
 
@@ -18,8 +16,8 @@ This app requires:
 To install the app, use your terminal/command line and do the following.
 
 ```bash
-git clone https://github.com/neighlyd/expensify-app
-cd expensify-app
+git clone https://github.com/neighlyd/react-boilerplate
+cd react-boilerplate
 node install
 mkdir config
 touch config/.env.dev
@@ -67,7 +65,7 @@ heroku open
 
 ## Tests
 
-The Expensify App comes with a complete set of unit sets using the [Jest](https://jestjs.io/) library.
+The React Boilerplate comes with a complete set of unit sets using the [Jest](https://jestjs.io/) library.
 
 To run these tests after installing the app, simply run the following command from within the app directory:
 
